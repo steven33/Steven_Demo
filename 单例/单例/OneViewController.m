@@ -30,13 +30,8 @@
     [manager1 save];
     NSLog(@"%@",manager1);
     
+    
+    
 }
-
-
-
-
-
-
-
 
 @end

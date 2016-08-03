@@ -19,6 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    //单例可以结合model使用，使用的时候会更方便，减少冗余代码
+    
     
     
     MyManager *manager1 = [MyManager check];
