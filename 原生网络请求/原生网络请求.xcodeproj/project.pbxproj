@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D21A7091D59B2AC001F9550 /* UploadRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D21A7081D59B2AC001F9550 /* UploadRequest.m */; };
 		8D41FC641D53167F001374E2 /* DataRequest1.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D41FC631D53167F001374E2 /* DataRequest1.m */; };
 		8D41FC671D543B7B001374E2 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D41FC651D543B7B001374E2 /* 5.png */; };
 		8D41FC681D543B7B001374E2 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D41FC661D543B7B001374E2 /* 6.png */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D21A7071D59B2AC001F9550 /* UploadRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadRequest.h; sourceTree = "<group>"; };
+		8D21A7081D59B2AC001F9550 /* UploadRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadRequest.m; sourceTree = "<group>"; };
 		8D41FC621D53167F001374E2 /* DataRequest1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataRequest1.h; sourceTree = "<group>"; };
 		8D41FC631D53167F001374E2 /* DataRequest1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataRequest1.m; sourceTree = "<group>"; };
 		8D41FC651D543B7B001374E2 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
@@ -168,6 +171,8 @@
 			children = (
 				8DF1662C1D52F0A300438772 /* DataRequest.h */,
 				8DF1662D1D52F0A300438772 /* DataRequest.m */,
+				8D21A7071D59B2AC001F9550 /* UploadRequest.h */,
+				8D21A7081D59B2AC001F9550 /* UploadRequest.m */,
 			);
 			name = "iOS7以后NSURLSession";
 			sourceTree = "<group>";
@@ -308,6 +313,7 @@
 				8DF165FC1D52EF5400438772 /* AppDelegate.m in Sources */,
 				8D41FC641D53167F001374E2 /* DataRequest1.m in Sources */,
 				8DF165F91D52EF5400438772 /* main.m in Sources */,
+				8D21A7091D59B2AC001F9550 /* UploadRequest.m in Sources */,
 				8DF1662E1D52F0A300438772 /* DataRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
