@@ -15,6 +15,7 @@
 		8D21A7791D59D1CC001F9550 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D21A7771D59D1CC001F9550 /* LaunchScreen.storyboard */; };
 		8D21A7841D59D1CC001F9550 /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D21A7831D59D1CC001F9550 /* _______Tests.m */; };
 		8D21A78F1D59D1CD001F9550 /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D21A78E1D59D1CD001F9550 /* _______UITests.m */; };
+		8D21A79E1D5ACF3B001F9550 /* DownManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D21A79D1D5ACF3B001F9550 /* DownManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		8D21A78A1D59D1CC001F9550 /* 图片下载和缓存UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "图片下载和缓存UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D21A78E1D59D1CD001F9550 /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
 		8D21A7901D59D1CD001F9550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D21A79C1D5ACF3B001F9550 /* DownManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownManager.h; sourceTree = "<group>"; };
+		8D21A79D1D5ACF3B001F9550 /* DownManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				8D21A76D1D59D1CC001F9550 /* AppDelegate.m */,
 				8D21A76F1D59D1CC001F9550 /* ViewController.h */,
 				8D21A7701D59D1CC001F9550 /* ViewController.m */,
+				8D21A79C1D5ACF3B001F9550 /* DownManager.h */,
+				8D21A79D1D5ACF3B001F9550 /* DownManager.m */,
 				8D21A7721D59D1CC001F9550 /* Main.storyboard */,
 				8D21A7751D59D1CC001F9550 /* Assets.xcassets */,
 				8D21A7771D59D1CC001F9550 /* LaunchScreen.storyboard */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D21A7711D59D1CC001F9550 /* ViewController.m in Sources */,
+				8D21A79E1D5ACF3B001F9550 /* DownManager.m in Sources */,
 				8D21A76E1D59D1CC001F9550 /* AppDelegate.m in Sources */,
 				8D21A76B1D59D1CC001F9550 /* main.m in Sources */,
 			);
@@ -496,6 +502,7 @@
 				8D21A7951D59D1CD001F9550 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D21A7961D59D1CD001F9550 /* Build configuration list for PBXNativeTarget "图片下载和缓存Tests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				8D21A7981D59D1CD001F9550 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D21A7991D59D1CD001F9550 /* Build configuration list for PBXNativeTarget "图片下载和缓存UITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +520,7 @@
 				8D21A79B1D59D1CD001F9550 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
